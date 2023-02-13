@@ -1,0 +1,69 @@
+.background{
+    background-color: rgb(18, 18, 245);
+    color: #fff;
+}
+
+.parent-nav{
+    position: relative;
+    display: block;
+}
+
+.child-nav{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.child-nav{
+    background-color: rgb(234, 237, 237);
+    width: 170px;
+    padding: 2px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.child-nav li{
+    list-style: none;
+    padding: 8px;
+}
+.child-nav li:hover{
+    background-color: #fff;
+    border-radius: 5px;
+}
+.child-nav li a{
+    text-decoration: none;
+    color: black;
+}
+.parent-nav:hover .child-nav{
+    display: block;
+}
+.footer h5{
+ font-size: 18px;
+}
+.footer ul li{
+    list-style: none;
+    text-align: left;
+    padding-left: 50px;
+    padding: 5px;
+}
+.footer ul li a{
+ text-decoration: none;
+ color: #fff;
+ text-transform: capitalize;
+}
+.mytable{
+    width: 100%;
+    text-align: center;
+    overflow-x: auto;
+}
+.mytable th{
+    border: 1px solid rgb(163, 162, 162);
+    padding: 10px;
+}
+.mytable td{
+    border: 1px solid rgb(163, 162, 162);
+    padding: 10px;
+}
+
+
+
+
+
